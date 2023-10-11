@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img {
+  width: 4em;
+  display: flex;
+  justify-content: left;
+}
+
+nav {
+  display: flex;
+  justify-content: right;
+  text-align: center;
+}
+
+a {
+  padding: 2em;
+  text-decoration: none;
+}
+
+button {
+  margin: 2em;
+  border-radius: 0.5em;
+}
+
+header {
+  background-color: #1D7874;
+}
+header button {
+  background-color: #061A40;
+}
+header a {
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  font-family: "Monomaniac One", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */
