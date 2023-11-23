@@ -1,25 +1,37 @@
- $cor1: #071E22;
- $cor2: #1D7874;
- $cor3: #679289;
- $cor4: #003559;
- $cor5: #061A40;
+ $cor1: #000022;
+ $cor2: #001242;
+ $cor3: #005E7C;
+ $cor4: #0094C6;
+ $cor5: #040F16;
+ $cor5: #6DB2E3;
+ $cor6: #A0A09F;
+ $cor7: #FFFFFF;
 
+body{
+ background-color: $cor1;
 
 header{ 
-    background-color: $cor2;
+    background-color: $cor6;
 
     button{
     background-color: $cor5;
-    
+    border: none;
 
 }  
 
     a {
-        color: white;
+        color: $cor7;
     }
 
 
+} 
+   section{
+    h1{
+        color: $cor7;
+       }
 
-
-
+       p{
+        color: $cor7;
+       }
+   }
 }
